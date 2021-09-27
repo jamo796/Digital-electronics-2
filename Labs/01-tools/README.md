@@ -62,4 +62,4 @@ int main(void)
 
 ### Schema zapojení pro signalizaci Morseova kodu
 
-###### obrázek
+![AT MEGA schematic](img/ATmega obrazek.png)
