@@ -100,4 +100,4 @@ int main(void)
 
 ### Schema zapojení pro řadu led diod a jednoho tlačítka
 
-###### obrázek
+![kings rider](img/kings rider.png)
