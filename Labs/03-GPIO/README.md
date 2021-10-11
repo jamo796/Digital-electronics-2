@@ -49,7 +49,7 @@ Ki = 1024
         označení že je tlačítko sepnuté
         */
             {
-                GPIO_toggle(&DDRC, LED_TWO)
+                GPIO_toggle(&DDRB, LED_TWO)
             }
     }
 ```
