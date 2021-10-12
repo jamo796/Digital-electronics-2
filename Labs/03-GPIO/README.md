@@ -31,9 +31,12 @@ Ki = 1024
 ```c
     // Configure Push button at port D and enable internal pull-up resistor
     // WRITE YOUR CODE HERE
-
-    GPIO_config_output(&DDRB, LED_TWO); //výstupní Ledka
-    GPIO_write_low(&PORTB, LED_TWO);; //nastavení led diodu na hodnotu log.H
+    
+    GPIO_config_output(&DDRB, LED_GREEN); //výstupní Ledka
+    GPIO_write_high(&PORTB, LED_GREEN); //nastavení led diodu na hodnotu log.H
+    GPIO_config_output(&DDRC, LED_TWO); //výstupní Ledka
+    GPIO_write_low(&PORTC, LED_TWO); //nastavení led diodu na hodnotu log.H
+    
     GPIO_config_input_pullup(&DDRD, BUTON); //nastavujeme tlačítko na pord D 
 
     // Infinite loop
@@ -49,7 +52,8 @@ Ki = 1024
         označení že je tlačítko sepnuté
         */
             {
-                GPIO_toggle(&DDRB, LED_TWO)
+                GPIO_toggle(&DDRB, LED_GREEN);
+                GPIO_toggle(&DDRC, LED_TWO);
             }
     }
 ```
