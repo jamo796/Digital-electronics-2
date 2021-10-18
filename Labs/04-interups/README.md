@@ -45,35 +45,35 @@
 
  */
 
-\#define TIM0_stop()      TCCR0B &= ~((1<<CS02) | (1<<CS01) | (1<<CS00));
+#define TIM0_stop()      TCCR0B &= ~((1<<CS02) | (1<<CS01) | (1<<CS00));
 
 /** @brief Set overflow 4ms, prescaler 001 --> 1 */
 
-\#define TIM0_overflow_4ms()  TCCR0B &= ~((1<<CS02) | (1<<CS01)); TCCR0B |= (1<<CS00);
+#define TIM0_overflow_4ms()  TCCR0B &= ~((1<<CS02) | (1<<CS01)); TCCR0B |= (1<<CS00);
 
 /** @brief Set overflow 33ms, prescaler 010 --> 8 */
 
-\#define TIM0_overflow_33ms()  TCCR0B &= ~((1<<CS02) | (1<<CS00)); TCCR0B |= (1<<CS01);
+#define TIM0_overflow_33ms()  TCCR0B &= ~((1<<CS02) | (1<<CS00)); TCCR0B |= (1<<CS01);
 
 /** @brief Set overflow 262ms, prescaler 011 --> 64 */
 
-\#define TIM0_overflow_262ms() TCCR0B &= ~(1<<CS02); TCCR0B |= (1<<CS01) | (1<<CS00);
+#define TIM0_overflow_262ms() TCCR0B &= ~(1<<CS02); TCCR0B |= (1<<CS01) | (1<<CS00);
 
 /** @brief Set overflow 1s, prescaler 100 --> 256 */
 
-\#define TIM0_overflow_1s()   TCCR0B &= ~((1<<CS01) | (1<<CS00)); TCCR0B |= (1<<CS02);
+#define TIM0_overflow_1s()   TCCR0B &= ~((1<<CS01) | (1<<CS00)); TCCR0B |= (1<<CS02);
 
 /** @brief Set overflow 4s, prescaler // 101 --> 1024 */
 
-\#define TIM0_overflow_4s()   TCCR0B &= ~(1<<CS01); TCCR0B |= (1<<CS02) | (1<<CS00);
+#define TIM0_overflow_4s()   TCCR0B &= ~(1<<CS01); TCCR0B |= (1<<CS02) | (1<<CS00);
 
 /** @brief Enable overflow interrupt, 1 --> enable */
 
-\#define TIM0_overflow_interrupt_enable()  TIMSK1 |= (1<<TOIE1);
+#define TIM0_overflow_interrupt_enable()  TIMSK1 |= (1<<TOIE1);
 
 /** @brief Disable overflow interrupt, 0 --> disable */
 
-\#define TIM0_overflow_interrupt_disable() TIMSK1 &= ~(1<<TOIE1);
+#define TIM0_overflow_interrupt_disable() TIMSK1 &= ~(1<<TOIE1);
 ```
 
 
@@ -82,7 +82,7 @@
 
 
 
-  ![your figure](C:\Users\janpe\Desktop\school\SEM5\DE2\lab4\obsloužení přerušení.png)
+  ![your figure](..\obsloužení přerušení.png)
 
 
 
@@ -94,4 +94,4 @@
 
 
 
-  ![your figure](C:\Users\janpe\Desktop\school\SEM5\DE2\lab4\knight rider.png)
+  ![your figure](..\knight rider.png)
