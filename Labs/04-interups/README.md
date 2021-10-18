@@ -82,7 +82,7 @@
 
 
 
-  ![your figure](..\obsloužení přerušení.png)
+  ![your figure](https://github.com/jamo796/Digital-electronics-2/blob/main/Labs/04-interups/obslou%C5%BEen%C3%AD%20p%C5%99eru%C5%A1en%C3%AD.png)
 
 
 
@@ -94,4 +94,4 @@
 
 
 
-  ![your figure](..\knight rider.png)
+  ![your figure](https://github.com/jamo796/Digital-electronics-2/blob/main/Labs/04-interups/knight%20rider.png)
