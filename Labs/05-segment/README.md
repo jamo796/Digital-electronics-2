@@ -58,10 +58,10 @@ ISR(TIMER0_OVF_vect)
 
 Flowchart figure for function SEG_clk_2us() which generates one clock period on SEG_CLK pin with a duration of 2 us. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
 
-    your figure (strukturo gram kloku)
+  ![your figure](https://github.com/jamo796/Digital-electronics-2/blob/main/Labs/04-interups/obslou%C5%BEen%C3%AD%20p%C5%99eru%C5%A1en%C3%AD.png)
 
 Kitchen alarm
 
 Consider a kitchen alarm with a 7-segment display, one LED and three push buttons: start, +1 minute, -1 minute. Use the +1/-1 minute buttons to increment/decrement the timer value. After pressing the Start button, the countdown starts. The countdown value is shown on the display in the form of mm.ss (minutes.seconds). At the end of the countdown, the LED will start blinking.
 
-    Scheme of kitchen alarm; do not forget the supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values. (schema)
+  ![your figure](https://github.com/jamo796/Digital-electronics-2/blob/main/Labs/04-interups/obslou%C5%BEen%C3%AD%20p%C5%99eru%C5%A1en%C3%AD.png)
