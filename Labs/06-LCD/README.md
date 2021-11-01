@@ -4,7 +4,7 @@ Lab 5: Jan Pelka
 
 Link to your Digital-electronics-2 GitHub repository:
 
-https://github.com/jamo796/Digital-electronics-2/tree/main/Labs/05-segment
+https://github.com/jamo796/Digital-electronics-2/tree/main/Labs/06-LCD
 
 ### LCD display module
 
@@ -15,7 +15,7 @@ https://github.com/jamo796/Digital-electronics-2/tree/main/Labs/05-segment
 
 2. (Hand-drawn) picture of time signals between ATmega328P and LCD keypad shield (HD44780 driver) when transmitting three character data `De2`.
 
-   ![your figure]()
+   ![your figure](https://github.com/jamo796/Digital-electronics-2/blob/main/Labs/06-LCD/grafika%202.jpg)
 
 
 ### Stopwatch
@@ -24,7 +24,7 @@ https://github.com/jamo796/Digital-electronics-2/tree/main/Labs/05-segment
 
 FLOW CHARD
 
-   ![your figure]()
+   ![your figure](https://github.com/jamo796/Digital-electronics-2/blob/main/Labs/06-LCD/flow%20chart.jpg)
 
 
 ### Custom characters
@@ -61,4 +61,4 @@ Consider a kitchen alarm with an LCD, one LED and three push buttons: start, +1 
 
 1. Scheme of kitchen alarm; do not forget the supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values.
 
-   ![your figure]()
+   ![your figure](https://github.com/jamo796/Digital-electronics-2/blob/main/Labs/06-LCD/schema.png)
