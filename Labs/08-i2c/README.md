@@ -29,7 +29,8 @@ Link to this file in your GitHub repository:
       - INT0 = PD1
       - INT1 = PD2
  VLOZ OBRAZEK ARDUINO PINOUT
-   ![your figure]()
+ 
+   ![your figure](https://github.com/jamo796/Digital-electronics-2/blob/main/Labs/08-i2c/arduino_uno_pinout.png)
 
 ### I2C
 
@@ -107,7 +108,7 @@ ISR(TIMER1_OVF_vect)
 
 2. (Hand-drawn) picture of I2C signals when reading checksum (only 1 byte) from DHT12 sensor. Indicate which specific moments control the data line master and which slave.
 
-   ![your figure]()
+   ![your figure](https://github.com/jamo796/Digital-electronics-2/blob/main/Labs/08-i2c/257625435_846315426035498_3619383090385680586_n.jpg)
 
 ### Meteo station
 
@@ -115,4 +116,4 @@ Consider an application for temperature and humidity measurement and display. Us
 
 1. FSM state diagram picture of meteo station. The image can be drawn on a computer or by hand. Concise name of individual states and describe the transitions between them.
 
-   ![your figure]()
+   ![your figure](https://github.com/jamo796/Digital-electronics-2/blob/main/Labs/08-i2c/flow%20chart.png)
